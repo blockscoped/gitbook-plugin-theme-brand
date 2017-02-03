@@ -1,11 +1,11 @@
 {
-  "name": "gitbook-plugin-theme-corezoid",
-  "version": "1.1.4",
-  "description": "Gitbook custom theme for Corezoid docs",
+  "name": "gitbook-plugin-theme-sis",
+  "version": "2.0.4",
+  "description": "Gitbook custom theme for SIS docs",
   "keywords": [
     "gitbook",
     "theme",
-    "corezoid"
+    "sis"
   ],
   "license": "GPLv3",
   "author": {
@@ -14,12 +14,26 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akulov/gitbook-plugin-theme-corezoid.git"
+    "url": "https://github.com/SIS-MSC/gitbook-plugin-theme-sis.git"
   },
   "bugs": {
-    "url": "https://github.com/akulov/gitbook-plugin-theme-corezoid/issues"
+    "url": "https://github.com/SIS-MSC/gitbook-plugin-theme-sis/issues"
   },
   "engines": {
     "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "langs": {
+        "type": "array",
+        "default": ["en"],
+        "title": "List of supported languages."
+      },
+      "baseurl": {
+        "type": "string",
+        "required": true,
+        "title": "Base URL of Git Repo at the tree level"
+      }
+    }
   }
 }

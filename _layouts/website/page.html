@@ -3,14 +3,14 @@
 {% block body %}
 <div class="book">
 	<div class="header-inner">
-		<a class="logo" href="//corezoid.com">
-			<img src="{{ "images/logo-corezoid.svg"|resolveAsset }}" alt="Corezoid">
+		<a class="logo" href="{{ config.pluginsConfig['theme-sis'].baseurl }}">
+			<img src="{{ "images/logo-sis.jpg"|resolveAsset }}" alt="SIS">
 		</a>
 		<ul class="langs">
-			{% for lang in book.themeCorezoid.langs -%}
-			<li>
+			{% for lang in config.pluginsConfig['theme-sis'].langs -%}
+			<!--<li>
 				<a class="flag flag-{{ lang }}" href="/{{ lang }}/">{{ lang }}</a>
-			</li>
+			</li>-->
 			{%- endfor %}
 		</ul>
 		{% block search_input %}{% endblock %}

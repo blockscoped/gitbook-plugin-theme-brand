@@ -3,8 +3,8 @@
 {% block body %}
 <div class="book">
 	<div class="header-inner">
-		<a class="logo" href="{{ config.pluginsConfig['theme-sis'].baseurl }}">
-			<img src="{{ "images/logo-sis.jpg"|resolveAsset }}" alt="SIS">
+		<a class="logo" href="{{ config.brand.siteURL }}">
+			<img src="{{ config.brand.logo|resolveAsset }}" alt="{{ config.brand.name }}">
 		</a>
 		<ul class="langs">
 			{% for lang in config.pluginsConfig['theme-sis'].langs -%}

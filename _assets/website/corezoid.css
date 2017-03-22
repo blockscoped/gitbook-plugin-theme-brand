@@ -1,7 +1,8 @@
 /*Book inner page*/
 .book-summary,
-.book-body{
-  top: 51px;
+.book-body,
+.book-header {
+  top: 71px;
 }
 
 .book.color-theme-1{
@@ -69,7 +70,7 @@
 
 .header-inner{
   width: 100%;
-  padding: 0 10px;
+  padding: 10px 15px;
   border-bottom: 1px solid rgba(0, 0, 0, .07);
   margin: auto;
   *zoom: 1;

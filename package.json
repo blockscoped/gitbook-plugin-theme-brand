@@ -29,10 +29,19 @@
         "default": ["en"],
         "title": "List of supported languages."
       },
-      "baseurl": {
+      "siteURL": {
         "type": "string",
         "required": true,
         "title": "Base URL of Git Repo at the tree level"
+      },
+      "logo": {
+        "type": "string",
+        "title" "Path to brand logo from root directory e.g. 'images/logo.png'",
+        "required": true
+      },
+      "altText": {
+        "type": "string",
+        "title": "Alt text for the brand logo"
       }
     }
   }

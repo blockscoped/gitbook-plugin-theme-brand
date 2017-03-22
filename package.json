@@ -36,7 +36,7 @@
       },
       "logo": {
         "type": "string",
-        "title" "Path to brand logo from root directory e.g. images/logo.png",
+        "title": "Path to brand logo from root directory e.g. 'images/logo.png'",
         "required": true
       },
       "altText": {
